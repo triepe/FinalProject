@@ -1,0 +1,140 @@
+
+#back	{
+	clear: both;
+	}
+
+
+#intro	{
+	position: relative;
+	top: 2%;
+	left: 33%;
+	}
+
+#intro ul	{
+	list-style-type:none;
+	}	
+
+#resume-content	{
+	padding: 0% 5% 0 2%;
+	border-top: solid;
+	margin: 0%
+	}	
+#resume-content h1	{
+		font-size: 23px;
+		padding: 1% 0% 0%;
+		margin: 0%;
+		}	
+#resume-content h2	{
+		font-size: 20px;
+		padding: .5% 0% 0%;
+		margin: 0%;
+		}	
+#resume-content h3	{
+		font-size: 15px;
+		padding: 1% 0% 0%;
+		margin: 0%;
+			}
+#resume-content p	{
+		font-size: 15px;
+		padding-top: 0%;
+		margin: 0%;
+		}	
+p.job-title	{
+	font-style: italic;
+	}
+p.school	{
+	font-weight:bold;
+	font-style: italic;
+	}	
+#education	{
+	position: relative;
+	width: 60%;
+	float; left;
+	}	
+#extra {
+	position: relative;
+	width: 30%;
+	float: left;
+	}
+#footer	{
+	clear: both;
+	}	
+/*CSS for the Image Gallery */
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+#gallery {
+	list-style-type: none;
+}
+#gallery li {
+	float: left;
+     width:240px;
+	margin-right: 6px;
+	margin-bottom: 10px;
+	font: bold 1em Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+#gallery img {
+	display: block;
+	border: 1px solid #333300;
+}
+img:hover , a:focus #gallery img {
+	transform: scale(1.5);
+	}
+body.gallery{	
+	padding:10px;
+	}
+/*CSS for the Classmates */
+body.ltblue	{
+	background-color: #CCE0FF;
+	}
+	
+#classmates	{
+	width: 100%;
+	margin: 0 auto; 
+	}
+	
+.odd	{
+	background-color: #CCFF66
+	}
+.even	{
+	background-color: #FF99FF;
+	}
+	table{
+   margin-left: auto;
+    margin-right: auto;
+	}
+.classmatesTable	{
+	width: 620px;
+	}
+table, th, td {
+border: 2px solid black;
+	}
+th, td	{
+padding: 10px;
+	}
+@media screen and (max-width: 620px)
+{	.classmatesTable	{
+	width: 100%;
+	}
+	}
+@media print {
+body.ltblue {
+	background:white;
+}
+}	
+/*CSS for the Survey */
+
+#survey	{
+	background-color: #CCE0FF;
+	padding-left: 10px;
+	}
+
+ol, ul { 
+     list-style-type: none;
+      }
+  
+	
